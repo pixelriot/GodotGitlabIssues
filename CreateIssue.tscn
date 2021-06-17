@@ -25,6 +25,7 @@ margin_left = 320.0
 margin_top = 168.0
 margin_right = 512.0
 margin_bottom = 344.0
+wrap_enabled = true
 __meta__ = {
 "_edit_use_anchors_": false
 }
