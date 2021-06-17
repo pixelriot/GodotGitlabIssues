@@ -1,0 +1,39 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://CreateIssue.gd" type="Script" id=1]
+
+[node name="CreateIssue" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HeaderText" type="LineEdit" parent="."]
+margin_left = 320.0
+margin_top = 128.0
+margin_right = 512.0
+margin_bottom = 152.0
+placeholder_text = "headline"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="BodyText" type="TextEdit" parent="."]
+margin_left = 320.0
+margin_top = 168.0
+margin_right = 512.0
+margin_bottom = 344.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="SendButton" type="Button" parent="."]
+margin_left = 448.0
+margin_top = 360.0
+margin_right = 512.0
+margin_bottom = 380.0
+text = "send"
+
+[node name="HTTPRequest" type="HTTPRequest" parent="."]

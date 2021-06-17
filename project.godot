@@ -11,7 +11,7 @@ config_version=4
 [application]
 
 config/name="GodotGitlabIssues"
-run/main_scene="res://UI.tscn"
+run/main_scene="res://CreateIssue.tscn"
 config/icon="res://icon.png"
 
 [physics]
