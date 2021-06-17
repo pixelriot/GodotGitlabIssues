@@ -1,6 +1,6 @@
 # GodotGitlabIssues
 
-Simple interface to open issues in your Gitlab board straight from your Godot game.
+Simple interface to create issues in your Gitlab board straight from your Godot game.
 
 This can be used to gather feedback data from your audience or create bug reports during playtest sessions.
 
